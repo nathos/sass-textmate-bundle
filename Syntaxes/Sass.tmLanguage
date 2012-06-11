@@ -6,6 +6,8 @@
 	<array>
             <string>sass</string>
             <string>scss</string>
+            <string>css.sass</string>
+            <string>css.scss</string>
         </array>
 	<key>foldingStartMarker</key>
 	<string>/\*|^#|^\*|^\b|^\.</string>
