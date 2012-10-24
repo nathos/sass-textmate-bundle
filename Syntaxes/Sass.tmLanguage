@@ -25,7 +25,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>@(import|mixin|include|charset|import|media|page|font-face|namespace) [\/\.\w-]*\b</string>
+			<string>@(import|mixin|include|charset|import|media|page|font-face|namespace|for)\b</string>
 			<key>name</key>
 			<string>keyword.control.at-rule.sass</string>
 		</dict>
