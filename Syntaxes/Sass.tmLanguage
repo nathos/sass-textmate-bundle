@@ -4,9 +4,9 @@
 <dict>
 	<key>fileTypes</key>
 	<array>
-            <string>sass</string>
-            <string>scss</string>
-        </array>
+		<string>sass</string>
+		<string>scss</string>
+	</array>
 	<key>foldingStartMarker</key>
 	<string>/\*|^#|^\*|^\b|^\.</string>
 	<key>foldingStopMarker</key>
@@ -112,11 +112,18 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>url</string>
+			<string>url\(</string>
 			<key>end</key>
 			<string>\)</string>
 			<key>name</key>
 			<string>variable.parameter.url</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>#nested-parens</string>
+				</dict>
+			</array>
 		</dict>
 		<dict>
 			<key>match</key>
@@ -200,6 +207,31 @@
 			<string>helper.sublime.property-value.sass</string>
 		</dict>
 	</array>
+	<key>repository</key>
+	<dict>
+		<key>nested-parens</key>
+		<dict>
+			<key>begin</key>
+			<string>\(</string>
+			<key>captures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.section.scope.sass</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>\)</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>#nested-parens</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
 	<key>scopeName</key>
 	<string>source.sass</string>
 	<key>uuid</key>
