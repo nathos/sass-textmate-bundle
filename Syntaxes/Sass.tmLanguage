@@ -30,6 +30,12 @@
 			<string>keyword.control.at-rule.sass</string>
 		</dict>
 		<dict>
+			<key>match</key>
+			<string>(?&lt;![!&lt;&gt;=a-zA-Z0-9_-]|[&lt;&gt;=a-zA-Z0-9_-] )[=+][a-zA-Z0-9_-]+</string>
+			<key>name</key>
+			<string>keyword.control.mixin-shorthand.sass</string>
+		</dict>
+		<dict>
 			<key>begin</key>
 			<string>"</string>
 			<key>end</key>
