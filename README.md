@@ -29,6 +29,10 @@ Once you have Package Control installed, activate your Command Palette and choos
 
 Then, search for **"Sass"** and press Enter. In mere moments you'll be up and running with full syntax highlighting, tab completion and more. Huzzah!
 
+### Putting HAML in its place
+
+You may find that when you open files with the `.sass` extension, Sublime Text 2 initially interprets the syntax as HAML. To permanently fix this, open `Packages/Rails/Ruby Haml.tmLanguage` and delete the line `<string>sass</string>`.
+
 ## About & Credit
 This was originally a fork of <https://github.com/seaofclouds/sass-textmate-bundle>, and includes the best contributions of people [throughout the network](https://github.com/nathos/sass-textmate-bundle/network).
 
