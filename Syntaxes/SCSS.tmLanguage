@@ -4,7 +4,7 @@
 <dict>
 	<key>fileTypes</key>
 	<array>
-    <string>scss</string>
+    <string>sass</string>
   </array>
 	<key>foldingStartMarker</key>
 	<string>/\*|^#|^\*|^\b|^\.</string>
@@ -13,7 +13,7 @@
 	<key>keyEquivalent</key>
 	<string>^~S</string>
 	<key>name</key>
-	<string>Sass</string>
+	<string>SCSS</string>
 	<key>patterns</key>
 	<array>
 		<dict>
@@ -192,9 +192,9 @@
 			<key>begin</key>
 			<string>/\*</string>
 			<key>end</key>
-			<string>$\n?</string>
+			<string>\*/</string>
 			<key>name</key>
-			<string>comment.line.slash-asterisk.sass</string>
+			<string>comment.block.sass</string>
 		</dict>
 		<dict>
 			<key>begin</key>
