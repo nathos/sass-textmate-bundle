@@ -190,10 +190,8 @@
 			<string>variable.parameter.sass</string>
 		</dict>
 		<dict>
-			<key>begin</key>
-			<string>/\*</string>
-			<key>end</key>
-			<string>\*/</string>
+			<key>match</key>
+			<string>((^\ \*)|(\/\*))(.*)$</string>
 			<key>name</key>
 			<string>comment.block.sass</string>
 		</dict>
