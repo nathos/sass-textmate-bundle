@@ -5,6 +5,7 @@
 	<key>fileTypes</key>
 	<array>
 		<string>sass</string>
+		<string>css.sass</string>
 		<string>scss</string>
 	</array>
 	<key>foldingStartMarker</key>
@@ -399,7 +400,7 @@
 		</dict>
 	</dict>
 	<key>scopeName</key>
-	<string>source.sass, source.css.sass</string>
+	<string>source.css.sass</string>
 	<key>uuid</key>
 	<string>0AB51F6F-7780-4BF2-BEE3-5405ABA6A6B9</string>
 </dict>
