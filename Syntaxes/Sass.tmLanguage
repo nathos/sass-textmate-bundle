@@ -470,6 +470,10 @@
 					<key>include</key>
 					<string>#units</string>
 				</dict>
+				<dict>
+					<key>include</key>
+					<string>#variable</string>
+				</dict>
 			</array>
 		</dict>
 		<key>property-names</key>
