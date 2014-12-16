@@ -63,7 +63,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?&lt;=@include|@mixin)\s[a-zA-Z0-9_-]+</string>
+			<string>(?&lt;=@include|@mixin|@function)\s[a-zA-Z0-9_-]+</string>
 			<key>name</key>
 			<string>support.function.name.sass</string>
 		</dict>
