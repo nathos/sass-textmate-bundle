@@ -272,6 +272,10 @@
 				</dict>
 				<dict>
 					<key>include</key>
+					<string>#numeric</string>
+				</dict>
+				<dict>
+					<key>include</key>
 					<string>#single-quoted</string>
 				</dict>
 				<dict>
@@ -396,6 +400,13 @@
 			<string>%[a-zA-Z0-9_-]+</string>
 			<key>name</key>
 			<string>entity.other.attribute-name.placeholder-selector.sass</string>
+		</dict>
+		<key>numeric</key>
+		<dict>
+			<key>match</key>
+			<string>(-|\+)?\s*[0-9]+(\.[0-9]+)?</string>
+			<key>name</key>
+			<string>constant.numeric.sass</string>
 		</dict>
 	</dict>
 	<key>scopeName</key>
