@@ -404,7 +404,7 @@
 		<key>numeric</key>
 		<dict>
 			<key>match</key>
-			<string>(-|\+)?\s*[0-9]+(\.[0-9]+)?</string>
+			<string>(-|\+)?\s*([0-9]+(\.[0-9]+)?|\.[0-9]+)</string>
 			<key>name</key>
 			<string>constant.numeric.sass</string>
 		</dict>
