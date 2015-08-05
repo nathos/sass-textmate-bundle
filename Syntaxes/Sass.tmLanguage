@@ -173,6 +173,13 @@
 		</dict>
 		<dict>
 			<key>match</key>
+			<string>[&amp;](-|_){2}[a-zA-Z0-9]+</string>
+			<key>name</key>
+			<string>entity.other.attribute-name.class.sass</string>
+		</dict>
+
+		<dict>
+			<key>match</key>
 			<string>!(important|default|optional)</string>
 			<key>name</key>
 			<string>keyword.other.important.css.sass</string>
