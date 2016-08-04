@@ -25,7 +25,7 @@ This add-on adds syntax highlighting and tab/code completion for Sass and SCSS f
 
 I recommend using the excellent [Sublime Package Control](http://wbond.net/sublime_packages/package_control) to install Sublime Text 2 packages.
 
-Once you have Package Control installed, activate your Command Palette and choose ```Package Control: Install Package```.
+Once you have Package Control installed, activate your Command Palette (Command + Shift + P) and choose ```Package Control: Install Package```.
 
 Then, search for **"Sass"** and press Enter. In mere moments you'll be up and running with full syntax highlighting, tab completion and more. Huzzah!
 
