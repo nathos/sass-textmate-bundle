@@ -5,6 +5,7 @@
 	<key>fileTypes</key>
 	<array>
 		<string>sass</string>
+		<string>css.sass</string>
 		<string>scss</string>
 	</array>
 	<key>foldingStartMarker</key>
@@ -87,8 +88,8 @@
 			<key>name</key>
 			<string>support.type.property-name.css.sass</string>
 		</dict>
-		
-		
+
+
 		<dict>
 			<key>match</key>
 			<string>@(import|for|else|each|mixin|include|charset|import|media|page|namespace|extend)\s[\%\/\.\w-]*\b</string>
@@ -113,7 +114,7 @@
 			<key>name</key>
 			<string>keyword.other.unit.scss</string>
 		</dict>
-		<dict>		
+		<dict>
 			<key>match</key>
 			<string>\b(a|abbr|acronym|address|area|article|aside|audio|b|base|big|blockquote|body|br|button|canvas|caption|cite|code|col|colgroup|command|datalist|dd|del|details|dfn|div|dl|dt|em|embed|fieldset|figcaption|figure|footer|form|frame|frameset|(h[1-6])|head|header|hgroup|hr|html|i|iframe|img|input|ins|kbd|keygen|label|legend|li|link|map|mark|meta|meter|nav|noframes|noscript|object|ol|optgroup|option|output|p|param|pre|progress|q|rp|rt|ruby|samp|script|section|select|small|span|strike|strong|style|sub|sup|table|tbody|td|textarea|tfoot|th|thead|time|title|tr|tt|ul|var|video)\b</string>
 			<key>name</key>
@@ -399,7 +400,7 @@
 		</dict>
 	</dict>
 	<key>scopeName</key>
-	<string>source.sass</string>
+	<string>source.css.sass</string>
 	<key>uuid</key>
 	<string>0AB51F6F-7780-4BF2-BEE3-5405ABA6A6B9</string>
 </dict>
