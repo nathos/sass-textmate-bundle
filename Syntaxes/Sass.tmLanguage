@@ -284,10 +284,6 @@
 					<key>name</key>
 					<string>keyword.other.regex.sass</string>
 				</dict>
-				<dict>
-					<key>include</key>
-					<string>#parameters</string>
-				</dict>
 			</array>
 		</dict>
 		<dict>
